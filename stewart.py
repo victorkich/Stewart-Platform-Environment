@@ -138,7 +138,7 @@ class environment():
         ax.scatter3D(end_actuators[:,0], end_actuators[:,1], end_actuators[:,2], color='y',\
                 linestyle='-', linewidth=3, label='Vertices')
         ax.plot3D(end_actuators[:,0], end_actuators[:,1], end_actuators[:,2], color='b',\
-                linestyle='-', linewidth=3, label='Arestas')
+                linestyle='-', linewidth=3, label='Edges')
         ax.scatter3D(plate_cords[:, 0], plate_cords[:, 1], plate_cords[:, 2]+10, color='y',\
                 linestyle='-', linewidth=3)
         ax.plot3D(plate_cords[:, 0], plate_cords[:, 1], plate_cords[:, 2]+10, color='b',\
@@ -168,7 +168,7 @@ class environment():
             ax.plot3D(eixo_x, eixo_y, eixo_z, color='k', linestyle='-', linewidth=6)
 
         ax.set_title('Stewart Platform', size=20)
-        ax.legend(loc=2, prop={'size':15})
+        ax.legend(loc=2, prop={'size':10})
         ax.set_xlabel('x')
         ax.set_ylabel('y')
         ax.set_zlabel('z')
