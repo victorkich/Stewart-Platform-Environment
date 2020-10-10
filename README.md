@@ -10,7 +10,7 @@
 
 ## Environment
 <p align="justify">
-  <img src="media/steward.jpg" alt="StewartPlatform" align="right" width="320">
+  <img src="media/steward.png" alt="StewartPlatform" align="right" width="320">
   <a>This project is intended to provide a simulation environment for performing virtual tests for a stewart platform. It consists of a board with 6 actuators working in parallel, so it is possible to use this environment as a basis for testing your parallel kinematics algorithms.</a>
 </p>
 
